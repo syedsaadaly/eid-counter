@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-image: url('eid.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 97%;
+    padding-left: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 110px;
+    margin: 10px 0;
+    padding-left: 7%;
+    text-shadow: 2px 2px 4px black;
+}
+
+h3 {
+    color: white;
+    padding-left: 7%;
+    font-size: 40px;
+    text-shadow: 2px 2px 4px black;
+}
+
+#countdown {
+    /* display: inline-block;  */
+    padding: 7px;
+    font-size: 2em;
+    color: #e6a7dd;
+    background-color: rgba(0, 0, 0, 0.5); 
+    border-radius: 10px; 
+}
+
+#countdown p {
+    transform: rotate(-10deg); /* Incline the text */
+    margin: 0; /* Remove default margin */
+}
+p{
+    color: beige;
+    display: flex;
+    margin: 0;
+    justify-content: right;
+    /* align-items: flex-end; */
+}
